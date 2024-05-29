@@ -12,7 +12,7 @@
     list-style: none;
 }
 
-.container {
+.containers {
     max-width: 940px;
     margin: 0 auto;
     /* border: 1px solid black; */
@@ -130,9 +130,13 @@
 }
 
 
+.bbb{
+    width: 100% !important;
+    height: 250px !important;
+}
 
 @media only screen and (max-width: 690px) {
-    .container {
+    .containers {
         max-width: 940px;
         margin: 0 auto;
         /* border: 1px solid black; */
@@ -177,7 +181,7 @@
 }
 
 @media only screen and (max-width: 470px) {
-    .container {
+    .containers {
         max-width: 940px;
         margin: 0 auto;
         /* border: 1px solid black; */
@@ -211,7 +215,7 @@
     }
 
     .btn {
-        display: none;
+        display: none !important;
     }
 
     .h1 {
@@ -246,6 +250,9 @@
         flex-direction: column;
         gap: 30px;
         margin: 0 auto;
+        margin-top: 500px;
+    }
+    #carouselExampleCaptions{
         margin-top: 500px;
     }
 }
