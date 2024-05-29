@@ -16,6 +16,7 @@
     max-width: 940px;
     margin: 0 auto;
     /* border: 1px solid black; */
+    f
 }
 
 .nexia {
@@ -43,12 +44,16 @@
     gap: 20px;
     text-align: center;
     padding: 20px 20px 10px;
+    color: white;
 }
 
 .over {
     width: 100%;
     height: 50%;
+    background-image: url("../img\ 13.jpg");
+    background-repeat: no-repeat;
     background-color: #fff;
+    /* background-size: cover; */
     position: absolute;
     top: -50%;
     z-index: 3;
@@ -82,6 +87,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    color: white;
 }
 
 .li {
@@ -129,7 +135,7 @@
     .container {
         max-width: 940px;
         margin: 0 auto;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .nexia {
@@ -174,7 +180,7 @@
     .container {
         max-width: 940px;
         margin: 0 auto;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .nexia {
@@ -231,7 +237,7 @@
 /* 
 @media only screen and(max-width:662px) {
    
-}*/ 
+}*/
 @media only screen and (max-width: 670px) {
     .carts {
         width: 250px;
